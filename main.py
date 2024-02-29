@@ -27,3 +27,7 @@ def spam_check():
             return {"status":True, "is_spam":True}
         else:
             return {"status":True, "is_spam":False}
+
+
+if __name__ == "__main__":
+    app.run()
